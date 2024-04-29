@@ -106,7 +106,7 @@ const Contact = () => {
                   onClick={(e) => handleSubject(e.target.innerHTML)}
                   className={`${subject === "Questions" ? "active-btn" : ""}`}
                 >
-                  Questions 888
+                  Questions
                 </button>
                 <button
                   type="button"
