@@ -7,11 +7,11 @@ import "./Layout.css";
 const Layout = () => {
   return (
     <div className="container">
-        <Header />
-        <div className="body-content">
-          <Outlet />
-        </div>
-       </div>
+      <Header />
+      <div className="body-content">
+        <Outlet />
+      </div>
+     </div>
   );
 };
 

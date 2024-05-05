@@ -76,6 +76,7 @@ nav {
   display: none;
 }
 
+.btn,
 .toggle-main label {
   margin: 0;
   background-color: #f3f4f8;
@@ -88,6 +89,7 @@ nav {
   width: 70px;
   height: 30px;
 }
+
 
 .toggle-main label::after {
   background: linear-gradient(40deg, #ff0080, #ff8c00 70%);

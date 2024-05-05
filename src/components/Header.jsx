@@ -130,6 +130,7 @@ const Header = () => {
             </button>
           </div>
         )}
+    
         <div className="right-nav">
           <div className="toggle-main">
             <input
@@ -150,6 +151,7 @@ const Header = () => {
             />
           </div>
         </div>
+        
       </nav>
     </div>
   );
