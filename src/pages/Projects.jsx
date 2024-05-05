@@ -41,44 +41,29 @@ const Projects = () => {
             </a>
           </div>
           <div className="project-info">
-            <h2 className="project-title">Peak Performance</h2>
-            <p>
-              A website that serves as a medium for anyone who aspires to reach
-              their fitness goals. The interface serves as a seamless
-              integration of several bookkeeping services, achievements, and
-              even a social media feature.
-            </p>
-            <p>
-              Designed and implemented with a team of 5 developers, utilizing
-              Next.js, Figma, Supabase (a Firebase alternative), and MaterialUI
-              to create a sleek and seamless experience to help users maintain
-              healthy habits and hit their fitness goals.
-            </p>
+            <h2 className="project-title">Baghdadi Sooq</h2>
+            <p>This project has been built with multiple purposes, such as selling client products, text booking, etc., with multiple languages. In this project, my work includes managing the drive module, managing penalties, deposits, and working on APIs for both the admin side.</p>
+            
             <div className="project-tools">
-              <p>Next.js</p>
-              <p>MaterialUI</p>
-              <p>Supabase</p>
-              <p>Node.js</p>
-              <p>PostgreSQL</p>
+              <p>Laravel</p>
+              <p>Vue Js</p>
+              <p>MYSQL</p>
+              <p>Git</p>
+              <p>Web Sockets</p>
             </div>
             <div className="project-btns">
               <a
-                href="https://peakfitness.netlify.app/"
+                href="http://15.184.200.116/login"
                 target="_blank"
                 rel="noopen noreferrer"
               >
-                Demo
+                Link
               </a>
-              <a
-                href="https://github.com/peak-fitness/peak"
-                target="_blank"
-                rel="noopen noreferrer"
-              >
-                GitHub
-              </a>
+              
             </div>
           </div>
         </div>
+        
         <div className="project">
           <div className="project-img">
             <a
@@ -130,6 +115,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        
+        
       </div>
     </div>
   );

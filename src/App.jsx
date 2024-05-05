@@ -7,22 +7,28 @@ import Experience from "./pages/Experience";
 import LandingPage from "./pages/LandingPage";
 import Layout from "./Layout";
 import Projects from "./pages/Projects";
-
 import React, { useEffect } from 'react';
+import $ from "jquery"; 
 
 function App() {
   
   useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = "../assets/custom.js";
-    script.async = true;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
+    const loadJs = (path) => {
+      if (!document.querySelector(`script[src="${path}"]`)) {
+        let script = document.createElement('script');
+        script.src = path;
+        script.async = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        }
+      }
     }
+  
+    //loadJs('https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js');
+    //loadJs('https://ricostacruz.com/jquery.transit/jquery.transit.min.js');
+    //loadJs(`http://localhost:5173/public/assets/custom.js`);
+
   }, []);
   
   return (

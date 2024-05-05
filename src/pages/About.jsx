@@ -23,7 +23,7 @@ const About = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       >
-              <g clipPath="url(#clip0_90_587)">
+              <svg clipPath="url(#clip0_90_587)">
                 <mask id="path-1-inside-1_90_587" fill="white">
                   <path d="M0 20C0 8.95431 8.95431 0 20 0H180C191.046 0 200 8.95431 200 20V180C200 191.046 191.046 200 180 200H20C8.95431 200 0 191.046 0 180V20Z" />
                 </mask>
@@ -32,7 +32,7 @@ const About = () => {
         fill="url(#paint0_linear_90_587)"
         mask="url(#path-1-inside-1_90_587)"
         />
-              </g>
+              </svg>
               <defs>
                 <linearGradient
         id="paint0_linear_90_587"
@@ -108,12 +108,12 @@ const About = () => {
 </div>
           <div className="profile-links">
             <a
-    href="https://www.linkedin.com/in/justin-suh98/"
+    href="https://www.linkedin.com/in/mevada-kalpesh-775299219"
     target="_blank"
     rel="noopener noreferrer"
     >
               <svg
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.linkedin.com/in/mevada-kalpesh-775299219"
       viewBox="0 0 30 30"
       width="50px"
       height="50px"
@@ -122,7 +122,7 @@ const About = () => {
               </svg>
             </a>
             <a
-    href="https://github.com/justindjsuh"
+    href="https://github.com/mevadakalpesh"
     target="_blank"
     rel="noopener noreferrer"
     >

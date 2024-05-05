@@ -45,31 +45,37 @@ const Experience = () => {
             <div className="header-btn header-btn3"></div>
           </div>
           <div className="header-text">
-            <p>justins-portfolio &#8212; -bash</p>
+            <p>kalpesh-portfolio &#8212; -bash</p>
           </div>
         </div>
         <div className="terminal-body">
           <div className="terminal-bg-text">
-            <p>justins-MB:Experience justins-portfolio$ ls</p>
+            <p>kalpesh-MB:Experience kalpesh-portfolio$ ls</p>
             <div className="experience-terminal-btns">
               <button
                 onClick={handleFSAClick}
-                className="experience-terminal-btn terminal-btn1"
+                className={`experience-terminal-btn terminal-btn1 ${fsa ?
+                'active-btn' : '' }`}
               >
-                cat FSA.txt/ &#8594;
+                cat 18verticals.txt/ &#8594;
               </button>
-              <button
-                onClick={handleBloombergClick}
-                className="experience-terminal-btn terminal-btn2"
-              >
-                cat Bloomberg.txt/ <span>&#8594;</span>
-              </button>
+              
               <button
                 onClick={handleSIGClick}
-                className="experience-terminal-btn terminal-btn3"
+                className={`experience-terminal-btn terminal-btn3 ${sig ?
+                'active-btn' : '' }`}
               >
-                cat SIG.txt/ &#8594;
+                cat iCoderz Solutions.txt/ &#8594;
               </button>
+              
+              <button
+                onClick={handleBloombergClick}
+                className={`experience-terminal-btn terminal-btn2 ${bloomberg ?
+                'active-btn' : '' }`}
+              >
+                cat Contract Base.txt/ <span>&#8594;</span>
+              </button>
+              
             </div>
           </div>
           <div className="terminal-content">

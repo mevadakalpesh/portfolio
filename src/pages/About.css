@@ -75,10 +75,15 @@
 .about-pfp {
   width: 200px;
   height: 200px;
-  background: url("../assets/pfp.jpg");
+  background: url("../assets/jss.jpg");
+  background-size: 100%; 
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat;
   position: relative;
   border-radius: 180px;
 }
+
+
 
 .pfp-layer {
   border-radius: 180px;
