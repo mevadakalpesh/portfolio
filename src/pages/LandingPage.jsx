@@ -6,10 +6,10 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   const words = [
-    " a web developer.",
-    " a software engineer.",
-    " a laravel + react dev.",
-    " a full stack developer.",
+    " web developer.",
+    " software engineer.",
+    " laravel + react dev.",
+    " full stack developer.",
   ];
 
   const navigate = useNavigate();
