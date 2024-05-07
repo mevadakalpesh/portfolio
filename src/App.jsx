@@ -4,6 +4,7 @@ import Intro from "./pages/Intro";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
+import Coming from "./pages/Coming";
 import LandingPage from "./pages/LandingPage";
 import Layout from "./Layout";
 import Projects from "./pages/Projects";
@@ -42,7 +43,7 @@ function App() {
           <Route index element={<About />} />
         </Route>
         <Route path="/experience" element={<Layout />}>
-          <Route index element={<Experience />} />
+          <Route index element={<Coming />} />
         </Route>
         <Route path="/projects" element={<Layout />}>
           <Route index element={<Projects />} />
