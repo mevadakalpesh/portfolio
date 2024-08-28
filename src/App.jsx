@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Intro from "./pages/Intro";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Package from "./pages/Package";
 import Experience from "./pages/Experience";
 import Coming from "./pages/Coming";
 import LandingPage from "./pages/LandingPage";
@@ -51,6 +52,10 @@ function App() {
         <Route path="/contact" element={<Layout />}>
           <Route index element={<Contact />} />
         </Route>
+        <Route path="/package" element={<Layout />}>
+          <Route index element={<Package />} />
+        </Route>
+        
       </Routes>
     </div>
   );
