@@ -9,6 +9,7 @@ import Coming from "./pages/Coming";
 import LandingPage from "./pages/LandingPage";
 import Layout from "./Layout";
 import Projects from "./pages/Projects";
+import NewProjects from "./pages/NewProjects";
 import React, { useEffect } from 'react';
 import $ from "jquery"; 
 
@@ -55,6 +56,11 @@ function App() {
         <Route path="/package" element={<Layout />}>
           <Route index element={<Package />} />
         </Route>
+        
+         <Route path="/new-projects" element={<Layout />}>
+          <Route index element={<NewProjects />} />
+        </Route>
+        
         
       </Routes>
     </div>
